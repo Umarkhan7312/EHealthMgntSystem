@@ -1,15 +1,14 @@
-Date of admission: 
+Date of admission: 24/02/2022
 Name : UMAR KHAN 
 Address : MEMAN GALI NAVAPUR
 Contact Number : 7559242511
 Age : 22
 Gender : Male
 Blood Group : O+
-Any Major disease suffered earlier : none
-Patient ID : 3
+Any Major disease suffered earlier : None
+Patient ID : 01
 
 ********************************************************************
 
 
-Total Bill:900.0
-Total Bill:3.0
+Total Bill:1.0
