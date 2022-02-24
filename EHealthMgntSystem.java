@@ -6,8 +6,9 @@ class Info  //Info class
 Info()  //Info class Constructor automaticallycalled when object is created
 {	
         this.dadm = "";
-System.out.print("\t\t\t\t\t ___________________________________________________________________________________________\n");
-System.out.print("\t\t\t\t\t|                                           		                                |\n");
+System.out.print("\t\t\t\t\t|___________________________________________________________________________________________|\n");
+System.out.print("\t\t\t\t\t|     		U	M	A	R	K	H	A	N               |\n");
+System.out.print("\t\t\t\t\t|___________________________________________________________________________________________|\n");
 System.out.print("\t\t\t\t\t|                                           		                    	        |\n");
 System.out.print("\t\t\t\t\t|                                           		                                |\n");
 System.out.print("\t\t\t\t\t|                                           		                 	        |\n");
@@ -21,7 +22,8 @@ System.out.print("\t\t\t\t\t|                                                   
 System.out.print("\t\t\t\t\t|                                                                                           |\n");
 System.out.print("\t\t\t\t\t|                                                                                           |\n");
 System.out.print("\t\t\t\t\t|                                                                Project by                 |\n");
-System.out.print("\t\t\t\t\t|                                 HAVE A GOOD DAY :)                   Umar Khan              |\n");
+System.out.print("\t\t\t\t\t|                                 HAVE A GOOD DAY :)                   Umar Khan            |\n");
+System.out.print("\t\t\t\t\t|___________________________________________________________________________________________|\n");
 System.out.print("\t\t\t\t\t|___________________________________________________________________________________________|\n");
 }
 //Declaring variales to be used
@@ -117,7 +119,7 @@ System.out.print("\t\t\t\t\t\t|             2  >> Add Diagnosis Information     
 System.out.print("\t\t\t\t\t\t|             3  >> History of the Patient                        |\n");
 System.out.print("\t\t\t\t\t\t|             4  >> Bill of the patient                           |\n");
 System.out.print("\t\t\t\t\t\t|             5  >> Help				                |\n");
-System.out.print("\t\t\t\t\t\t|             6  >> Exit		                                |\n");
+System.out.print("\t\t\t\t\t\t|             6  >> Exit		                    By UmarKhan |\n");
 System.out.print("\t\t\t\t\t\t|_________________________________________________________________|\n");
 System.out.print("\t\t\t\t\t\tEnter your choice: ");
 k=scan.next().charAt(0);
@@ -333,20 +335,20 @@ void exit()
 {
 System.out.print("\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\n");
 System.out.print("\t\t\t\t\t _______________________________________________________________________________________ \n");
-System.out.print("\t\t\t\t\t|                                           		                                |\n");
-System.out.print("\t\t\t\t\t|                                           		                                |\n");
-System.out.print("\t\t\t\t\t|                                           		                                |\n");
-System.out.print("\t\t\t\t\t|                                           		                                |\n");
-System.out.print("\t\t\t\t\t|                                           		                                |\n");
-System.out.print("\t\t\t\t\t|                               THANK YOU FOR USING                                     |\n");
+System.out.print("\t\t\t\t\t|                                           	                                    |\n");
+System.out.print("\t\t\t\t\t|                                           		                            |\n");
+System.out.print("\t\t\t\t\t|                                           		                            |\n");
+System.out.print("\t\t\t\t\t|                                           		                            |\n");
+System.out.print("\t\t\t\t\t|                                           		                            |\n");
+System.out.print("\t\t\t\t\t|                                     THANK YOU                                  	    |\n");
 System.out.print("\t\t\t\t\t|                                                                                       |\n");
 System.out.print("\t\t\t\t\t|                            E-HEALTH CARE MANAGEMENT SYSTEM                            |\n");
 System.out.print("\t\t\t\t\t|                                                                                       |\n");
 System.out.print("\t\t\t\t\t|                                                                                       |\n");
 System.out.print("\t\t\t\t\t|                                                                                       |\n");
 System.out.print("\t\t\t\t\t|                                                                                       |\n");
-System.out.print("\t\t\t\t\t|                                                                                       |\n");
-System.out.print("\t\t\t\t\t|                                              -Brought To You by Fahad,Omer and Yaseen |\n");
+System.out.print("\t\t\t\t\t|                                                           	Project by          |\n");
+System.out.print("\t\t\t\t\t|                                                  			     Umar Khan	    |\n");
 System.out.print("\t\t\t\t\t|_______________________________________________________________________________________|\n");
 System.out.print("\t\t\t\t\t\n\n\n\n\t\t\t\t\t");
 System.exit(0);
@@ -369,10 +371,11 @@ void info()
 
 /**
  *
- * @author Anvi Patel
+ * @author Umar Khan
  */
 public class EHealthMgntSystem
 {
+
 public static void main (String args[])
 {
   Info i=new Info();
