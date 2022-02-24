@@ -7,7 +7,7 @@ Info()  //Info class Constructor automaticallycalled when object is created
 {	
         this.dadm = "";
 System.out.print("\t\t\t\t\t|___________________________________________________________________________________________|\n");
-System.out.print("\t\t\t\t\t|     		U	M	A	R	K	H	A	N               |\n");
+System.out.print("\t\t\t\t\t|     	U	M	A	R		K	H	A	N               |\n");
 System.out.print("\t\t\t\t\t|___________________________________________________________________________________________|\n");
 System.out.print("\t\t\t\t\t|                                           		                    	        |\n");
 System.out.print("\t\t\t\t\t|                                           		                                |\n");
