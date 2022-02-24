@@ -8,9 +8,9 @@ Info()  //Info class Constructor automaticallycalled when object is created
         this.dadm = "";
 System.out.print("\t\t\t\t\t ___________________________________________________________________________________________\n");
 System.out.print("\t\t\t\t\t|                                           		                                |\n");
+System.out.print("\t\t\t\t\t|                                           		                    	        |\n");
 System.out.print("\t\t\t\t\t|                                           		                                |\n");
-System.out.print("\t\t\t\t\t|                                           		                                |\n");
-System.out.print("\t\t\t\t\t|                                           		                                |\n");
+System.out.print("\t\t\t\t\t|                                           		                 	        |\n");
 System.out.print("\t\t\t\t\t|                                           		                                |\n");
 System.out.print("\t\t\t\t\t|                                           		                                |\n");
 System.out.print("\t\t\t\t\t|                            WELCOME TO MY PROJECT                                          |\n");
@@ -21,7 +21,7 @@ System.out.print("\t\t\t\t\t|                                                   
 System.out.print("\t\t\t\t\t|                                                                                           |\n");
 System.out.print("\t\t\t\t\t|                                                                                           |\n");
 System.out.print("\t\t\t\t\t|                                                                Project by                 |\n");
-System.out.print("\t\t\t\t\t|                                 HAVE A GOOD DAY                    Umar Khan              |\n");
+System.out.print("\t\t\t\t\t|                                 HAVE A GOOD DAY :)                   Umar Khan              |\n");
 System.out.print("\t\t\t\t\t|___________________________________________________________________________________________|\n");
 }
 //Declaring variales to be used
