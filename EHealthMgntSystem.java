@@ -171,7 +171,7 @@ String fileName =scan.next();
             bufferedWriter.newLine();
             System.out.print("\nAge : ");age=scan.nextInt();bufferedWriter.write("Age : "+age);
             bufferedWriter.newLine();
-            System.out.print("\nSex : ");sex=scan.next();bufferedWriter.write("Gender : "+gender);
+            System.out.print("\nSex : ");gender=scan.next();bufferedWriter.write("Gender : "+gender);
             bufferedWriter.newLine();
             System.out.print("\nBlood Group : ");bg=scan.next();bufferedWriter.write("Blood Group : "+bg);
             bufferedWriter.newLine();
