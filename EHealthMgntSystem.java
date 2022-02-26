@@ -329,32 +329,32 @@ System.out.println("\t\t\t\t\t\t _______________________________________________
             System.out.println(
                 "Error reading file '" + fileName + "'");               
         }
- pressAnyKeyToContinue();
+  pressAnyKeyToContinue();
 }
-void exit()
-{
-System.out.print("\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\n");
-System.out.print("\t\t\t\t\t _______________________________________________________________________________________ \n");
-System.out.print("\t\t\t\t\t|                                           	                                    |\n");
-System.out.print("\t\t\t\t\t|                                           		                            |\n");
-System.out.print("\t\t\t\t\t|                                           		                            |\n");
-System.out.print("\t\t\t\t\t|                                           		                            |\n");
-System.out.print("\t\t\t\t\t|                                           		                            |\n");
-System.out.print("\t\t\t\t\t|                                     THANK YOU                                  	    |\n");
-System.out.print("\t\t\t\t\t|                                                                                       |\n");
-System.out.print("\t\t\t\t\t|                            E-HEALTH CARE MANAGEMENT SYSTEM                            |\n");
-System.out.print("\t\t\t\t\t|                                                                                       |\n");
-System.out.print("\t\t\t\t\t|                                                                                       |\n");
-System.out.print("\t\t\t\t\t|                                                                                       |\n");
-System.out.print("\t\t\t\t\t|                                                                                       |\n");
-System.out.print("\t\t\t\t\t|                                                           	Project by          |\n");
-System.out.print("\t\t\t\t\t|                                                  			     Umar Khan	    |\n");
-System.out.print("\t\t\t\t\t|_______________________________________________________________________________________|\n");
-System.out.print("\t\t\t\t\t\n\n\n\n\t\t\t\t\t");
-System.exit(0);
-}
-void info()
-{
+  void exit()
+ {
+  System.out.print("\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\n");
+  System.out.print("\t\t\t\t\t _______________________________________________________________________________________ \n");
+  System.out.print("\t\t\t\t\t|                                           	                                    |\n");
+  System.out.print("\t\t\t\t\t|                                           		                            |\n");
+  System.out.print("\t\t\t\t\t|                                           		                            |\n");
+  System.out.print("\t\t\t\t\t|                                           		                            |\n");
+  System.out.print("\t\t\t\t\t|                                           		                            |\n");
+  System.out.print("\t\t\t\t\t|                                     THANK YOU                                  	    |\n");
+  System.out.print("\t\t\t\t\t|                                                                                       |\n");
+  System.out.print("\t\t\t\t\t|                            E-HEALTH CARE MANAGEMENT SYSTEM                            |\n");
+  System.out.print("\t\t\t\t\t|                                                                                       |\n");
+  System.out.print("\t\t\t\t\t|                                                                                       |\n");
+  System.out.print("\t\t\t\t\t|                                                                                       |\n");
+  System.out.print("\t\t\t\t\t|                                                                                       |\n");
+  System.out.print("\t\t\t\t\t|                                                           	Project by          |\n");
+  System.out.print("\t\t\t\t\t|                                                  			     Umar Khan	    |\n");
+  System.out.print("\t\t\t\t\t|_______________________________________________________________________________________|\n");
+  System.out.print("\t\t\t\t\t\n\n\n\n\t\t\t\t\t");
+  System.exit(0);
+ }
+ void info()
+ {
 	System.out.println("\n\nE-Health care management system is command-driven application that helps to manage the record of the patient's as well as generate their hospital bills.");
 	System.out.print("\t\t\t\t__________________________________________________________________________________________________________________________________\n");
 	System.out.print("\t\t\t\t\tOptions		             | Description\n");
@@ -365,21 +365,21 @@ void info()
 	System.out.println("\t\t\t\t 4 >> Bill of the patient            | Generates the bill of the patient with displaying the details.");        
 	System.out.println("\t\t\t\t 5 >> Help			     | Provide the help documentation.");    
 	System.out.println("\t\t\t\t 6 >> Exit		             | Exits the application.");
-    pressAnyKeyToContinue();
-}
+        pressAnyKeyToContinue();
+ }
 }
 
 /**
  *
  * @author Umar Khan
  */
+
 public class EHealthMgntSystem
 {
-
-public static void main (String args[])
-{
-  Info i=new Info();
-  i.login();
-  i.menu();
-}
+  public static void main (String[] umars)
+  {
+    Info in = new Info();
+    in.login();
+    in.menu();
+  }
 }
