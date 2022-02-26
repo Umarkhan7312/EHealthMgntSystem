@@ -1,6 +1,6 @@
 import java.io.*;   //for Basic I/O
-import java.util.*; //for Scanner and missMatchEcexception
-
+import java.util.*; //for Scanner ,current Date and exceptions like missMatchEcexception
+              
 class Info  //Info class
 {
 Info()  //Info class Constructor automaticallycalled when object is created
